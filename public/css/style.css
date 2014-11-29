@@ -1,0 +1,58 @@
+html div {
+    display: block;
+}
+table td {
+    text-align: left;
+    border: 1px solid #000000;
+}
+.error {
+    background: #CCB79A;
+}
+td.name {
+    width: 400px;
+}
+form {
+    display: inline-block;
+}
+a {
+    text-decoration: none;
+}
+.current-page {
+    color: #f00;
+    font-size: 1.3em;
+}
+div {
+    margin: auto;
+    text-align: center;
+}
+.pages-nav {
+    margin: 5px auto;
+    display: inline-block;
+    border-radius: 3px;
+    background: #ccc;
+}
+.container {
+    margin: 0 auto;
+    width: 50%;
+}
+#dropZone {
+    color: #555555;
+    font-size: 1.5em;
+    text-align: center;
+    width: 400px;
+    padding: 50px 0;
+    margin: 50px auto;
+    background: #eee;
+    border: 1px solid #ccc;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+#dropZone.hover {
+    background: #ddd;
+    border-color: #aaa;
+}
+#dropZone.drop {
+    background: #afa;
+    border-color: #0f0;
+}
